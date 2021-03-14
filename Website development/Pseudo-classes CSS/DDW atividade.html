@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style media="screen">
+    body{
+      background: black;
+      color: white;
+    }
+    fieldset{
+      height: auto;
+      width: 700px;
+    }
+      #ex2:hover{
+        color: red;
+      }
+      #am{
+
+        height: 150px;
+        width: 150px;
+        -webkit-transition: 2s;
+        transition: 2s;
+      }
+      #am:hover{
+
+        transform: rotate(-180deg);
+      }
+      #div1{
+        height: 150px;
+        width: 150px;
+       background: red;
+       -webkit-transition: ease-in 1s;
+       transition: 1s;
+       transition-timing-function: ease;
+      }
+      #div1:hover{
+          width: 300px;
+          height: 50px;
+      }
+      #div2{
+        height: 150px;
+        width: 150px;
+       background: blue;
+       -webkit-transition: ease-in 1s;
+       transition: 1s;
+      }
+      #div2:hover{
+
+        background: yellow;
+        transform: rotate(360deg);
+          width: 300px;
+          height: 200px;
+      }
+      #txt{
+
+        height: 20px;
+        width: 300px;
+        outline: none;
+        border: 5px solid;
+        border-color: white;
+        background: none;
+        text-align: center;
+        -webkit-transition: ease-in 1s;
+        transition: 1s;
+
+      }
+        #txt:focus{
+
+          background: green;
+          border-radius: 20px;
+        }
+        #h{
+          cursor: pointer;
+          -webkit-transition: ease-in 1s;
+          transition: 1s;
+        }
+        #h:hover{
+          text-shadow: 5px -5px lime;
+        }
+
+        #div3{
+height: 150px;
+width: 150px;
+background: yellow;
+          transition-timing-function: linear;
+            -webkit-transition: 3s;
+          transition: 3s;
+        }
+        #div3:hover{
+width: 400px;
+        }
+        #div4{
+height: 150px;
+width: 150px;
+background: yellow;
+          transition-timing-function: ease;
+          -webkit-transition: 3s;
+        transition: 3s;
+        }
+        #div4:hover{
+width: 400px;
+        }
+        #div5{
+height: 150px;
+width: 150px;
+background: yellow;
+          transition-timing-function: ease-in;
+          -webkit-transition: 3s;
+        transition: 3s;
+        }
+        #div5:hover{
+width: 400px;
+        }
+        #div6{
+height: 150px;
+width: 150px;
+background: yellow;
+          transition-timing-function: ease-out;
+          -webkit-transition: 3s;
+        transition: 3s;
+        }
+        #div6:hover{
+width: 400px;
+        }
+        #div7{
+height: 150px;
+width: 150px;
+background: yellow;
+          transition-timing-function: ease-in-out;
+          -webkit-transition: 3s;
+        transition: 3s;
+        }
+        #div7:hover{
+width: 400px;
+        }
+        /*segunda divs*/
+        #div8{
+height: 150px;
+width: 150px;
+background: purple;
+          transition-timing-function: linear;
+            -webkit-transition: 2s;
+          transition: 2s;
+        }
+        #div8:hover{
+width: 400px;
+        }
+        #div9{
+height: 150px;
+width: 150px;
+background: purple;
+          transition-timing-function: ease;
+          -webkit-transition: 2s;
+        transition: 2s;
+        }
+        #div9:hover{
+width: 400px;
+        }
+        #div10{
+height: 150px;
+width: 150px;
+background: purple;
+          transition-timing-function: ease-in;
+          -webkit-transition: 2s;
+        transition: 2s;
+        }
+        #div10:hover{
+width: 400px;
+        }
+        #div11{
+height: 150px;
+width: 150px;
+background: purple;
+          transition-timing-function: ease-out;
+          -webkit-transition: 2s;
+        transition: 2s;
+        }
+        #div11:hover{
+width: 400px;
+        }
+        #div12{
+height: 150px;
+width: 150px;
+background: purple;
+          transition-timing-function: ease-in-out;
+          -webkit-transition: 2s;
+        transition: 2s;
+        }
+        #div12:hover{
+width: 400px;
+        }
+        #halo{
+          height: 150px;
+          width: 150px;
+          -webkit-transition: 5s;
+        transition: 5s;
+          position: relative;
+          left: 0px;
+
+        }
+        #halo:hover{
+          left: 50%;
+        }
+        #gok{
+          height: 150px;
+          width: 150px;
+          -moz-transition: all 0.75s;
+          -webkit-transition: all 0.75s;
+          transition: all 0.75s;
+        }
+        #gok:hover{
+          -moz-transform: scale(1.5);
+          -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+        }
+        .lu{
+          height: 125px;
+          width: 600px;
+          background: green;
+          -webkit-transform: skew(30deg);
+          -ms-transform: skew(30deg);
+          transform: skew(30deg);
+        }
+        .lu p{
+
+          padding: 10px;
+          font-size: 13px;
+          -webkit-transform: skew(-30deg);
+          -ms-transform: skew(-30deg);
+          transform: skew(-30deg);
+        }
+
+        #lu{
+          height: 125px;
+          width: 150px;
+          float: left;
+        }
+
+    </style>
+    <meta charset="utf-8">
+    <title>atv</title>
+  </head>
+  <body>
+   <center>
+     <h1>Atividade</h1>
+     <fieldset>
+
+
+     <a href="www.google.com"><h1>Exemplo 1</a></h1>
+       <a href="www.facebook.com" id="ex2"><h1>Exemplo 2</a>
+         <hr>
+         <img id="am" src="x.jpg" alt="burguer">
+         <hr>
+         <div id="div1"></div>
+         <hr>
+         <div id="div2"></div>
+         <hr>
+         <input id="txt" type="text" name="" value="">
+         <hr>
+         <p id="h">HELLO WORLD</p>
+         <hr>
+         <div id="div3"></div><br>
+         <div id="div4"></div><br>
+         <div id="div5"></div><br>
+         <div id="div6"></div><br>
+         <div id="div7"></div>
+         <hr>
+         <div id="div8"></div><br>
+         <div id="div9"></div><br>
+         <div id="div10"></div><br>
+         <div id="div11"></div><br>
+         <div id="div12"></div>
+         <hr>
+         <img id="halo" src="img01.jpg" alt="halo" >
+         <hr>
+         <img id="gok" src="gok.jpeg" alt="goku" >
+         <hr>
+         <div class="lu">
+        <img id="lu" src="lu.jpg" alt="lua" >
+        <p>A Lua é o único satélite natural da Terra e o quinto maior do Sistema Solar.
+          <br> É o maior satélite natural de um planeta<br> no sistema solar em relação ao tamanho do seu corpo primário,
+          <br>tendo 27% do diâmetro e 60% da densidade da Terra,<br> o que representa 1⁄81 da sua massa.</p>
+        </div>
+
+
+
+
+
+   </center>
+   </fieldset>
+
+ </body>
+</html>

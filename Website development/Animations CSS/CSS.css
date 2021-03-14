@@ -1,0 +1,59 @@
+body{
+ background: url(est.jpg);
+ background-size: cover;
+ background-repeat: repeat;
+
+}
+img{
+  height: 50px;
+  width: 100px;
+  transform: rotate(90deg);
+  margin-top: 100px;
+}
+
+.frente{
+  position: absolute;
+  left: 575px;
+  top: -700px;
+  animation: animated 6s linear infinite;
+
+}
+.costas{
+  position: absolute;
+  transform: rotate(180deg);
+  bottom:-700px;
+  right: 575px;
+ animation: animat 6s linear infinite ;
+   animation-delay: 2s;
+}
+
+@keyframes animated {
+
+  from{
+     top: -200%;
+  }
+
+  to{
+   top: 100%;
+  }
+
+}
+
+@keyframes animat {
+
+  from{
+     bottom:  -200%;
+
+
+  }
+
+  to{
+
+   bottom: 100%;
+  }
+
+}
+
+html{
+  overflow: hidden;
+}

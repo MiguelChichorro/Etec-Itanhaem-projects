@@ -1,0 +1,44 @@
+body{
+background-color: black;
+color: white;
+}
+h1{
+  color: green;
+}
+fieldset{
+  height: auto;
+  width: 300px;
+  border-radius: 25px;
+  margin-top: 100px;
+}
+input[type="text"],input[type="password"]{
+  margin-top: 20px;
+  background: none;
+  border-radius: 25px;
+  text-align: center;
+  width: 100px;
+  height: 15px;
+  transition: 0.75s;
+  outline: none;
+  color: white;
+}
+input[type="text"]:focus,input[type="password"]:focus{
+  width: 200px;
+  height: 25px;
+  border-color: green;
+}
+input[type="submit"]{
+  margin-top: 60px;
+  height: 35px;
+  width: 100px;
+  border-radius: 25px;
+  background: none;
+  color: white;
+  transition: 0.25s;
+  outline: none;
+}
+input[type="submit"]:hover{
+  background: green;
+  border-color: green;
+  cursor: pointer;
+}

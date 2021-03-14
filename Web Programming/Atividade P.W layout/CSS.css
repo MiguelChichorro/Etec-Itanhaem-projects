@@ -1,0 +1,102 @@
+body{
+ font-family: "Courier New"
+}
+h1{
+   padding-top: 15px;
+}
+h4{
+  font-size: 14px;
+}
+p{
+  font-size: 11px;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+}
+hr{
+  border-color: black;
+}
+#val{
+  margin-top: 25px;
+}
+.lateral fieldset{
+  width: 265px;
+  height: 485px;
+  border: solid 2px;
+}
+.cabeçalho{
+  background-color: #D3D3D3;
+  width: auto;
+  height: 100px;
+}
+.lateral{
+
+  background-color: white;
+  width: 300px;
+  height: 500px;
+}
+.formul{
+   float: right;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 1033px;
+  height: 500px;
+
+}
+.cartao{
+float: right;
+margin-right: 100px;
+  width: 410px;
+  height: 300px;
+  background-color: none;
+}
+.dados{
+  margin-left: 100px;
+  margin-top:   20px;
+  width: 410px;
+  height: 350px;
+  background-color:none;
+}
+select{
+  width: 400px;
+  height: 25px;
+  outline: none;
+  border-radius: 5px;
+  border-color: black;
+}
+select:focus{
+  border-color: blue;
+}
+
+input[type="text"],input[type="number"],input[type="date"],input[type="email"]{
+  width: 400px;
+  height: 25px;
+  border-radius: 5px;
+  outline: none;
+  border-color: black;
+  text-align: left;
+}
+input[type="text"]:focus,input[type="number"]:focus,input[type="date"]:focus,input[type="email"]:focus{
+  border-color: blue;
+}
+
+
+input[type="submit"]{
+  width: 100px;
+  border-radius: 10px;
+  border: solid;
+  margin-top: 15px;
+  margin-left: 300px;
+  padding: 5px;
+  background: none;
+  border-color:#0000CD;
+  color:#0000CD;
+  transition: 0.25s;
+  cursor: pointer;
+  outline: none;
+}
+input[type="submit"]:hover{
+  background-color: #0000CD;
+  color:white;
+}

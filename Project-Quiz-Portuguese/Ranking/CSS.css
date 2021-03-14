@@ -1,0 +1,42 @@
+body{
+  background-image: url("alf.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+fieldset{
+
+      width: 500px;
+      height: auto;
+      left: 455px;
+      border: 3px solid black;
+      border-radius: 15px;
+      color: white;
+      background: rgba(0, 0, 0, 0.8);
+
+}
+button{
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  border: 3px solid black;
+  height: 50px;
+  width: 100px;
+  margin-top: 20px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover{
+  background-color: white;
+  color: black;
+}
+h1{
+font-size: 30px;
+}
+table{
+  width: 1000px;
+  height: 200px;
+  font-size: 20px;
+
+}

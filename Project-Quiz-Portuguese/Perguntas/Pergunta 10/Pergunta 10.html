@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style media="screen">
+
+    body{
+    margin-top: 40px;
+    background-image: url("Dragao.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: "Comic Sans MS";
+    }
+
+    img.quiz{
+      height: 50px;
+      width: auto;
+      float: left;
+    }
+
+    img.souza{
+      height: 50px;
+      width: auto;
+      float: right;
+    }
+
+    .a{
+
+      background: rgba(0,0,0,.8);
+      border: ;
+      border-radius: 20px;
+      height: 520px;
+      width: 700px;
+      padding-top: 40px;
+      border: none;
+    }
+    .cabeçalho{
+
+      border-radius: 20px;
+      background-image: linear-gradient(to left, #04B486, #72E9D8);
+      height: 50px;
+      width: 655px;
+      border: none;
+
+    }
+    .pergunta{
+
+      border-radius: 20px;
+      background-image: linear-gradient(to left, #04B486, #72E9D8);
+      height: 50px;
+      width: 655px;
+      font-size: 16px;
+     border: none;
+    }
+    .enviar{
+
+      width: 30px;
+      margin-left: 15px;
+      margin-top: 10px;
+      border-radius: 10px;
+      border: none;
+      background-image: linear-gradient(to left, #04B486, #72E9D8);
+      float: left;
+    }
+    .enviar:hover{
+      border: solid white;
+
+    }
+    button.submit{
+      background: none;
+      border: none;
+      cursor: pointer;
+      outline: none;
+    }
+    button.dica{
+      background: none;
+      border: solid;
+      cursor: pointer;
+      outline: none;
+    }
+    button.dica:focus{
+      border: solid green;
+
+    }
+    p{
+      font-size: 18px;
+    }
+    .b {
+
+      float: left;
+      width: 50%;
+      margin: 10px;
+      border-radius: 20px;
+      background-image: linear-gradient(to left, #04B486, #72E9D8);
+      height: auto;
+      font-size: 13px;
+      text-align: justify;
+      border: none;
+
+
+    }
+    .c {
+      position: relative;
+      float: right;
+      width: 37%;
+      height: 321px;
+      top: -215px;
+      background-image: linear-gradient(to left, #04B486, #72E9D8);
+      border-radius: 20px;
+      border: none;
+      font-size: 15px;
+    }
+    label{
+      cursor: pointer;
+    }
+
+    </style>
+    <meta charset="utf-8">
+    <title>Pergunta 10</title>
+  </head>
+  <body>
+
+    <center>
+    <fieldset class="a">
+      <!-- Cabeçalo -->
+      <fieldset class="cabeçalho">
+        <img src="Quiz.png" alt="quiz" class="quiz">
+        <img src="souza.png" alt="Centro Paula Souza" class="souza">
+      </fieldset>
+      <br>
+      <!-- Pergunta -->
+      <fieldset class="pergunta">
+        10 – Em qual das opções há erro de identificação das figuras?
+
+      </fieldset>
+      <br>
+       <!-- Respostas -->
+      <div class="respostas">
+        <label>
+        <fieldset class="b">
+          <input type="radio" name="b">a) "Um dia hei de ir embora / Adormecer no derradeiro sono." (eufemismo)
+        </fieldset>
+        </label>
+
+        <label>
+        <fieldset class="b">
+          <input type="radio" name="b">b) "A neblina, roçando o chão, cicia, em prece. (prosopopeia)
+        </fieldset>
+      </label>
+
+          <label>
+        <fieldset class="b">
+        <input type="radio" name="b">c) Já não são tão frequentes os passeios noturnos na violenta Rio de Janeiro. (silepse de número)
+        </fieldset>
+      </label>
+
+         <label>
+        <fieldset class="b">
+        <input type="radio" name="b">d) "E fria, fluente, frouxa claridade / Flutua..." (aliteração)
+        </fieldset>
+      </label>
+
+        <!-- DICA -->
+
+        <fieldset class="c">
+          Está com dúvida?<br>que tal pedir uma dica<br><button type="button" name="button" class="dica">Dica</button>
+          <p>Ocorre quando o sujeito é um coletivo e o verbo passa a fazer a concordância no plural.</p>
+    </fieldset>
+    </div>
+
+<!-- Botao enviar -->
+
+    <fieldset class="enviar">
+      <button  type="button" name="button" class="submit">Enviar</button>
+
+    </fieldset>
+
+
+
+    </fieldset>
+  </center>
+
+  </body>
+</html>

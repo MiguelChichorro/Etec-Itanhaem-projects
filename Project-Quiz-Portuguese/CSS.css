@@ -1,0 +1,36 @@
+body{
+margin: 20px;
+  background-color: black
+}
+fieldset {
+
+  background-color: white;
+  border: none;
+  border-radius: 24px;
+  height: 575px;
+  width: 700px;
+}
+
+img{
+  height: 225px;
+  width: auto;
+  padding-top: 100px;
+
+}
+
+button{
+  outline: none;
+  cursor: pointer;
+    width: 300px;
+    height: 35px;
+    background-color: black;
+    border-color: black;
+    color: white;
+    transition: 0.5s;
+}
+button:hover{
+  width: 400px;
+  height: 50px;
+  font-size: 20px;
+
+}

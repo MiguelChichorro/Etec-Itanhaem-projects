@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="CAD.css">
+	<title>
+		Cadastro do Jogador
+	</title>
+</head>
+<body>
+	<center>
+		<fieldset><legend><h1>Cadastro</h1></legend>
+	<div id="Cadastro">
+	Nome<br>
+<input type="text" name="nome" required>
+	<br><br>
+	E-mail<br>
+<input type="text" name="e-mail" required>
+	<br><br>
+	Data de Nascimento<br>
+<input type="date" name="nascimento" required>
+
+	<br><br>
+	Sexo<br>
+<label><input type="radio" value="Masculino" name="sexo[]">Masculino</label>
+
+<label><input type="radio" value="Feminino" name="sexo[]">Feminino</label>
+	<br><br>
+	Nivel de Conhecimento<br>
+<select name="nivel_conhecimento" required>
+	<option value="Iniciante">Iniciante</option>
+	<option value="Mediano">Mediano</option>
+	<option value="Avancado">Avançado</option>
+</select>
+
+	</div>
+	<button type="button" name="button">Enviar</button>
+		</fieldset>
+
+	</center>
+</body>
+</html>

@@ -1,0 +1,71 @@
+#dropdown{
+  border: none;
+  border-bottom: 1px solid black;
+  background: none;
+}
+#navbar{
+    margin-top: 0px;
+    animation: navbar 0.3s ease;
+    animation-iteration-count: initial;
+  }
+  @keyframes navbar{
+    from{margin-top: -50%;}
+    to{margin-top: 0px;}
+  }
+  #hei
+  {
+    height: auto;
+    margin-left: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  input[type="submit"]{
+    width: 50%;
+    margin-left: 25%;
+    margin-top:3%;
+    margin-bottom:3%;
+  }
+  #his{
+    border-radius: 10px;
+    margin-left:5%;
+    text-align: center;
+  }
+  #table{
+    height: 400px;
+    overflow: auto;
+  }
+textarea{
+  resize: none;
+}
+#descr{
+    resize:none;
+}
+td{font-size: 20px;}
+
+#pencil{
+
+  border: solid 3px blue;
+  transition: 0.5s;
+}
+#pencil:hover{
+  transition: 0.5s;
+  background: blue;
+}
+#delet{
+  border: solid 3px red;
+  transition: 0.5s;
+}
+#delet:hover{
+  transition: 0.5s;
+  background: red;
+}
+button{
+background: none;
+cursor: pointer;
+}
+#data{
+   width: 0%;
+    margin-left:0%;
+    margin-top:0%;
+    margin-bottom:0%;
+}

@@ -1,0 +1,16 @@
+.card{
+  height: auto;
+  width: 90%;
+}
+fieldset{
+	margin-top: 10%;
+	border: none;
+	box-shadow: 5px 5px 10px gray;
+	height: auto;
+	width: 20%;
+	padding: 15px;
+}
+input[type="text"]:focus{
+	border-color: blue;
+	transition: 2s;
+}

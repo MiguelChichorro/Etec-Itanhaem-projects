@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="CSS.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <center>
+      <fieldset id="tudo">
+
+      <legend><fieldset id="lege"><h1>REVISÃO DE FORM</h1></fieldset></legend>
+
+      <br>
+      <fieldset id="quest">
+
+    <form enctype="multipart/form-data" action="PHP.php" method="post">
+      <p>PERFIL: <input type="file" name="foto"  required></p>
+      <p>NOME: <input type="text" name="nome"  required></p>
+      <p>IDADE: <input type="number" name="idade" required></p>
+      <p>SENHA: <input type="password" name="senha" required></p>
+      <p>SEXO: <input type="radio" name="sexo" value="M" required>Masculino
+        <input type="radio" name="sexo" value="F">Feminino</p>
+        <hr>
+
+        <h2>FORMAÇÃO</h2>
+        <select  name="formaçao" required>
+          <option value="Fundamental">Fundamental</option>
+          <option value="Médio">Médio</option>
+          <option value="Superior">Superior</option>
+        </select>
+        <hr>
+        <h2>HOBBIE</h2>
+        <input type="checkbox" name="hobbie[]" value="Quadrinhos" checked>Quadrinhos<br>
+        <input type="checkbox" name="hobbie[]" value="Filmes">Filmes<br>
+        <input type="checkbox" name="hobbie[]" value="Musicas">Musica<br>
+        <input type="checkbox" name="hobbie[]" value="outros">Outros
+        <hr>
+        <input type="submit" value="enviar">
+        </fieldset>
+
+    </form>
+    </fieldset>
+
+  </body>
+</html>

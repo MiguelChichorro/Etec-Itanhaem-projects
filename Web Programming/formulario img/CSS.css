@@ -1,0 +1,38 @@
+body{
+  background-color: black;
+  color: white;
+}
+fieldset{
+  height: auto;
+  width: 300px;
+}
+input{
+  background: none;
+  border: 2px solid;
+  border-color: white;
+  border-radius: 9px;
+  color: white;
+  outline: none;
+  text-align: center;
+  transition: 0.50s;
+}
+input:focus{
+  border-color: green;
+}
+input:hover{
+  border-color: green;
+}
+input[type="submit"]{
+  cursor: pointer;
+}
+#tudo{
+  margin-top: 50px;
+}
+select{
+  background: none;
+  color: white;
+  border-radius: 5px;
+}
+option{
+  color: black;
+}

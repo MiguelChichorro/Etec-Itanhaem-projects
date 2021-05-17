@@ -1,0 +1,157 @@
+body {
+	margin: 0;
+	text-align: center;
+	background-color: black;
+}
+h1 {
+ color: white;
+ width: auto;
+}
+/* alinhamento dos fieldsets*/
+#x{
+	float: left;
+}
+#p {
+	float: left;
+}
+#rig {
+	float: right;
+}
+/* alinhamento descrição */
+#le{
+	float: left;
+}
+#ri{
+	float: right;
+
+}
+/* alinhamento da Localização */
+#left {
+	float: left;
+}
+#right{
+	float: right;
+}
+#r{
+	float: right;
+}
+ /* fieldset */
+#b{
+
+	border: solid white;
+	margin: 0 auto;
+	width: 1000px;
+
+
+}
+#a{
+	margin: auto;
+	border-radius: 20px;
+	border-color: white;
+	font-size: 20px;
+	color: white;
+	height: auto;
+	width: 450px;
+
+}
+#q{
+	margin: auto;
+	border-radius: 20px;
+	border-color: white;
+	font-size: 20px;
+	color: white;
+	height: 410px;
+	width: 450px;
+
+}
+/* perguntas */
+input[type="text"]{
+	border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid white;
+  padding: 14px 10px;
+  width: 150px;
+  outline: none;
+  color: white;
+  border-radius: 15px;
+  transition: 0.25s;
+
+}
+input[type="text"]:focus{
+  width: 200px;
+  border-color: green;
+
+}
+ /* botao enviar flutuar */
+ .a {
+	 position: absolute;
+	 top: 149%;
+
+ }
+ .cancel{
+
+
+
+ }
+input[type="submit"]{
+	border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid white;
+  padding: 14px 10px;
+  width: 150px;
+  outline: none;
+  color: white;
+  border-radius: 15px;
+	cursor: pointer;
+
+}
+input[type="submit"]:hover {
+	background: green;
+	border-color: green;
+	color: white;
+}
+/* botao cancelar */
+
+input[type="reset"]{
+	border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid white;
+  padding: 14px 10px;
+  width: 150px;
+  outline: none;
+  color: white;
+  border-radius: 15px;
+	cursor: pointer;
+	float: right;
+
+}
+input[type="reset"]:hover {
+	background: red;
+	border-color: red;
+	color: white;
+}
+
+select {
+	border: 0;
+	background: none;
+	display: block;
+	margin:  auto;
+	text-align: center;
+	border: 2px solid white;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: gray;
+	border-radius: 15px;
+
+
+}

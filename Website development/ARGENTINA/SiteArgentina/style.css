@@ -1,0 +1,11 @@
+#qq{
+	background: #363636;
+	transition: 0.5s;
+	text-decoration: none;
+}
+
+#qq:hover{
+	background: orange;
+	transition: 0.5s;
+	text-decoration: none;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<head>
+		<title>Coffe</title>
+		<link rel = "icon" href = "https://wikidownload.com/Download/coffee-icon.png" type = "image/x-icon">
+		<link rel="stylesheet" type="text/css" href="CSS.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="container">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+				  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img class="d-block w-100" src="https://cafetrampolim.com.br/wp-content/uploads/2020/03/cafe_cafeteria_graos.png" alt="First slide" width="1000px" height="300px">
+				  </div>
+				  <div class="carousel-item">
+					<img class="d-block w-100" src="https://conteudo.imguol.com.br/9a/2018/11/22/cafe-xicara-1542903208811_v2_1920x1280.jpg" alt="Second slide" width="1000px" height="300px">
+				  </div>
+				  <div class="carousel-item">
+					<img class="d-block w-100" src="https://lh3.googleusercontent.com/proxy/2Ev0eZLd58NsccH8ZaJ3Q0XTgqgKT2WrE5500Pv4gQnNBEn_nqdt_i-tE3UkOEmR4Sj8RVAxfMSp8A1YFmn7Egaa7OuXtp5B-FtKM7YCxQ9eHwB1z1Qv9DwxefgFcfNtxelT-hkv3yA92vuZDF_6aRUGQsBHePg4qbvoSu9ela81vDg" alt="Third slide" width="1000px" height="300px">
+				  </div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Next</span>
+				</a>
+			</div>
+			<hr>
+			<h1 style="text-align: center;"><B>Coffee</B></h1>
+			<br>
+			<div class="row">
+				<div class="col-sm-4" id="histo" onclick="histo()">
+					<b>Historia</b>
+					<label for="histo"></label>
+				</div>
+				<div class="col-sm-4" id="table" onclick="table()">
+					<b>Table</b>
+					<label for="table"></label>
+				</div>
+				<div class="col-sm-4"  id="conclu" onclick="conclu()">
+					<b>Conclusion</b>
+					<label for="conclu"></label>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="content" >
+					<p id="text"></p>
+				</div>
+			</div>
+			<br>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script>
+			$('.carousel').carousel({
+  				interval: 2000
+			})
+			function histo(){
+				document.getElementById("text").innerHTML = "A história do caasaso século Vll. O café é originário das terras altas da Etiópia (possivelmente com culturas no Sudão e Quênia) transportado pelos mouros para o Egito e a Europa.Mas, ao contrário do que se acredita, a palavra café não é originária de Kaffa — local de origem da planta —, e sim da palavra árabe qahwa, que significa vinho, devido à importância que a planta passou a ter para o mundo árabe.Uma lenda conta que um pastor chamado Kaldi observou que suas cabras ficavam mais espertas ao comer as folhas e frutos do cafeeiro. Ele experimentou os frutos e sentiu maior vivacidade. Um monge da região, informado sobre o fato, começou a utilizar uma infusão de frutos para resistir ao sono enquanto orava.Parece que as tribos africanas, que conheciam o café desde a Antiguidade, moíam seus grãos e faziam uma pasta utilizada para alimentar os animais e aumentar as forças dos guerreiros. Seu cultivo se estendeu primeiro na Arábia, introduzido provavelmente por prisioneiros de guerra, onde se popularizou aproveitando a lei seca por parte do Islã. O Iêmen foi um centro de cultivo importante, de onde se propagou pelo resto do Mundo Árabe.O conhecimento dos efeitos da bebida disseminou-se e no século XVI o café era utilizado no oriente, sendo torrado pela primeira vez na Pérsia.Na Arábia, a infusão do café recebeu o nome de kahwah ou cahue (ou ainda qah'wa, do original em árabe قهوة). Enquanto na língua turco otomana era conhecido como kahve, cujo significado original também era vinho. A classificação Coffea arabica foi dada pelo naturalista Lineu.O café no entanto teve inimigos mesmo entre os árabes, que consideravam suas propriedades contrárias às leis do profeta Maomé. No entanto, logo o café venceu essas resistências e até os doutores maometanos aderiram à bebida para favorecer a digestão, alegrar o espírito e afastar o sono, segundo os escritores da época."
+			}
+			function table(){
+				document.getElementById("text").innerHTML = "Text"
+			}
+			function conclu(){
+				document.getElementById("text").innerHTML = "Text2"
+			}
+		</script>
+	</body>
+</html>

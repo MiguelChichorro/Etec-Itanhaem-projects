@@ -14,7 +14,12 @@ body{
   	margin-left: auto;
   	margin-right: auto;
 }
+#coffee2{
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
+}
 .col-sm-4{
+	cursor: pointer;
 	background-color:whitesmoke;
 	border:solid;
 	text-align: center;

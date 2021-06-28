@@ -2,6 +2,15 @@
 <html>
 	<meta charset="utf-8">
 	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("#content").hide();
+				$("#catego").click(function(){
+					$("#content").show();
+				});
+			});
+		</script>
 		<title>Coffe</title>
 		<link rel = "icon" href = "https://wikidownload.com/Download/coffee-icon.png" type = "image/x-icon">
 		<link rel="stylesheet" type="text/css" href="CSS.css">
@@ -48,23 +57,23 @@
 				</div>
 			</div>
 			<br>
-			<div class="row">
+			<div class="row" id="catego">
 				<div class="col-sm-4" id="histo" onclick="histo()">
 					<b>Historia</b>
 					<label for="histo"></label>
 				</div>
 				<div class="col-sm-4" id="table" onclick="table()">
-					<b>Table</b>
+					<b>Tabela</b>
 					<label for="table"></label>
 				</div>
 				<div class="col-sm-4"  id="conclu" onclick="conclu()">
-					<b>Conclusion</b>
+					<b>Conclusão</b>
 					<label for="conclu"></label>
 				</div>
 			</div>
 			<br>
-			<div class="row">
-				<div class="content" >
+			<div class="row" id="content">
+				<div class="content">
 					<p id="text"></p>
 				</div>
 			</div>

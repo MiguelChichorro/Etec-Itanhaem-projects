@@ -1,4 +1,8 @@
+body{
+	background-image:url(https://www.pointbleudesign.com/wp-content/uploads/2019/09/European-Specialty-Coffee-Market-by-Pointbleu-Design-Blog.jpg);
+}
 #coffee{
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	text-align: center;
 	color: snow;
 	text-shadow:0 0 1em brown;
@@ -14,6 +18,7 @@
 	box-shadow: -0.7em 0.7em 0 silver;
 }
 #text{
+	font-family:'Times New Roman', Times, serif;
 	text-align: justify;
 	margin-left: 20px;
 	margin-right: 20px;
@@ -22,6 +27,4 @@
 label{
 	cursor:pointer;
 }
-body{
-	background-image:url(https://www.pointbleudesign.com/wp-content/uploads/2019/09/European-Specialty-Coffee-Market-by-Pointbleu-Design-Blog.jpg);
-}
+

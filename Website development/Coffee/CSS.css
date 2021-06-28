@@ -1,13 +1,14 @@
-h1{
-	font-size: 30px; font-family: arial black; color: green;
+#coffee{
+	text-align: center;
+	color: snow;
 }
 .col-sm-4{
-	background-color:gray;
+	background-color:whitesmoke;
 	border:solid;
 	text-align: center;
 }
 .content{
-	background-color:lightslategray;
+	background-color:burlywood;
 	border-style: double;
 }
 #text{
@@ -15,4 +16,7 @@ h1{
 }
 label{
 	cursor:pointer;
+}
+body{
+	background-image:url(https://www.pointbleudesign.com/wp-content/uploads/2019/09/European-Specialty-Coffee-Market-by-Pointbleu-Design-Blog.jpg);
 }

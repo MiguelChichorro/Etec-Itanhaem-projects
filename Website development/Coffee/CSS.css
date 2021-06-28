@@ -1,6 +1,7 @@
 #coffee{
 	text-align: center;
 	color: snow;
+	text-shadow:0 0 1em brown;
 }
 .col-sm-4{
 	background-color:whitesmoke;
@@ -8,11 +9,15 @@
 	text-align: center;
 }
 .content{
-	background-color:burlywood;
-	border-style: double;
+	background-color:white;
+	border-style: outset;
+	box-shadow: -0.7em 0.7em 0 silver;
 }
 #text{
 	text-align: justify;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
 }
 label{
 	cursor:pointer;

@@ -13,6 +13,15 @@ body{
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
+	animation: coffeein 2s linear infinite;
+}
+@keyframes coffeein{
+	from{
+		transform: rotate(0);
+	}
+	to{
+		transform: rotate(360deg);
+	}
 }
 #coffee2{
 	-webkit-transform: scaleX(-1);

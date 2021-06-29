@@ -36,6 +36,17 @@ body{
 	margin-right: 20px;
 	margin-top: 10px;
 }
+.nutrient{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	background-color:white;
+	border-style: outset;
+	box-shadow: -0.7em 0.7em 0 silver;
+}
+.nutrient-tr{
+	border: solid;
+}
 label{
 	cursor:pointer;
 }

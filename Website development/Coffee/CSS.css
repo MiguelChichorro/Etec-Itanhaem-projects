@@ -49,6 +49,12 @@ body{
 	border:solid;
 	text-align: center;
 }
+.col-sm-4:hover{
+	background-color:silver;
+}
+.col-sm-4:active{
+	border-style: double;
+}
 .content{
 	background-color:white;
 	border-style: outset;

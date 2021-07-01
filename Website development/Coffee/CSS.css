@@ -55,6 +55,22 @@ body{
 .col-sm-4:active{
 	border-style: double;
 }
+.welcome{
+	color: #f2f2f2;
+	display: inline-block;
+	width: 100%;
+	position: relative;
+}
+.txt1, .txt2{
+	font-size: 20px;
+	animation: welcome 2s infinite;
+}
+.txt1{
+	float: left;
+}
+.txt2{
+	float: right;
+}
 .content{
 	background-color:white;
 	border-style: outset;

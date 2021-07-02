@@ -43,7 +43,7 @@ body{
 	-webkit-transform: scaleX(-1);
   	transform: scaleX(-1);
 }
-.col-sm-4{
+.col-sm-4, .col-sm-12{
 	cursor: pointer;
 	background-color:whitesmoke;
 	border:solid;
@@ -63,7 +63,6 @@ body{
 }
 .txt1, .txt2{
 	font-size: 20px;
-	animation: welcome 2s infinite;
 }
 .txt1{
 	float: left;

@@ -104,6 +104,26 @@ th {
 	background-color: #04AA6D;
 	color: white;
 }
+#cards{
+	margin-top: 2%;
+}
+.card{
+	width: 100%;
+	height: 100%;
+	-webkit-transition: -webkit-transform .5s ease;
+	transition: transform .5s ease;
+}
+.card:hover{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.card-body{
+	height: 220px;
+}
+.card-img-top{
+	width: 100%;
+	height: 200px;
+}
 label{
 	cursor:pointer;
 }

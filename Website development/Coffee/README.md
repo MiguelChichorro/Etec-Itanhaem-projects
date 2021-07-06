@@ -16,4 +16,4 @@ This project i did in my high school period but i decided to change the code and
 ![Coffee Before](https://user-images.githubusercontent.com/51164882/124658300-f5bac800-de79-11eb-8f97-6b4129c16159.jpeg)
 
 <h1>After:</h1>
-![Coffee After](https://user-images.githubusercontent.com/51164882/124658101-c1470c00-de79-11eb-86da-cbcbdfb62def.jpeg)
+![after](https://user-images.githubusercontent.com/51164882/124658722-7da0d200-de7a-11eb-8f45-3faa0691779b.jpeg)

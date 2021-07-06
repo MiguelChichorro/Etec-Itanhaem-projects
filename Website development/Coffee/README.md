@@ -13,7 +13,7 @@ This project i did in my high school period but i decided to change the code and
     <a href="https://www.w3schools.com/jquery/default.asp"><img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"></a>
 </div>
 <h1>Before:</h1>
-![Coffe Before](https://github.com/MiguelChichorro/Etec-Itanhaem-projects/blob/main/Website%20development/Coffee/imgs/before.jpeg)
+![Coffee Before](https://user-images.githubusercontent.com/51164882/124658300-f5bac800-de79-11eb-8f97-6b4129c16159.jpeg)
 
 <h1>After:</h1>
-![Coffe After](https://github.com/MiguelChichorro/Etec-Itanhaem-projects/blob/main/Website%20development/Coffee/imgs/after.jpeg)
+![Coffee after](https://user-images.githubusercontent.com/51164882/124658101-c1470c00-de79-11eb-86da-cbcbdfb62def.jpeg)

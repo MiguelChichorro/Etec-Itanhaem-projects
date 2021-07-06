@@ -70,7 +70,7 @@ body{
 .txt2{
 	float: right;
 }
-.content{
+.content, #tiposcoffee{
 	background-color:white;
 	border-style: outset;
 	box-shadow: -0.7em 0.7em 0 silver;
@@ -142,7 +142,19 @@ footer{
 #social:hover{
 	opacity: 10;
 }
-
+.col-sm-12{
+ 	height: auto;
+ 	width: auto;
+	margin-top: 2%;
+}
+#tiposcoffee{
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	margin-top: 1%;
+	width: auto;
+	text-align: justify;
+}
 label{
 	cursor:pointer;
 }

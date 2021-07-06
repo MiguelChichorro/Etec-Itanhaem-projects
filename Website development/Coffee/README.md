@@ -6,4 +6,4 @@ languages Used:
 frameworks Used:
 
 <h1>Before:</h1>
-![alt text](https://github.com/MiguelChichorro/Etec-Itanhaem-projects/Website_development/Coffee/imgs/after.jpeg?raw=true)
+![alt text](imgs/after.jpeg?raw=true)

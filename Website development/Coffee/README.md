@@ -1,6 +1,6 @@
 # So do you like a cup of coffe? ☕
 This project i did in my high school period but i decided to change the code and update for all
-<h3 style="color: red;">This site is just in the portuguese language for a while</h3>
+<h3><ins>This site is just in the portuguese language for a while<ins></h3>
 <h2>languages Used:</h2>
 <div>
     <a href="https://www.w3schools.com/whatis/whatis_html.asp"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"></a>
@@ -16,4 +16,4 @@ This project i did in my high school period but i decided to change the code and
 ![Coffe Before](https://github.com/MiguelChichorro/Etec-Itanhaem-projects/blob/main/Website%20development/Coffee/imgs/before.jpeg)
 
 <h1>After:</h1>
-![Coffe After](https://github.com/MiguelChichorro/Etec-Itanhaem-projects/blob/main/Website%20development/Coffee/imgs/after.jpeg?raw=true)
+![Coffe After](https://github.com/MiguelChichorro/Etec-Itanhaem-projects/blob/main/Website%20development/Coffee/imgs/after.jpeg)

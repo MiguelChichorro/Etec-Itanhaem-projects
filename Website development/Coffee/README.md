@@ -1,5 +1,6 @@
 # So do you like a cup of coffe? ☕
-This project i did in my high school period but i decided to change the code and update for all hope you like!
+<p>This project i did in my high school period but i decided to change the code and update for all hope you like!</p>
+<p>This site tell a little of the coffee story, show the kinds of coffee and the main countries who manufactures it</p>
 <h3><ins>This site is just in the portuguese language for a while<ins></h3>
 <h2>languages Used:</h2>
 <div>

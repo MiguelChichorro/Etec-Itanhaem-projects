@@ -2,17 +2,15 @@
 	*{
 		text-align: center;
 		width: 200px;
-
 	}
-
 </style>
 <?php
-//Identificação
-echo "<fieldset>";
-echo"<meta charset=utf-8>";
-echo "<h1>Identificação</h1>";
-echo "<hr>";
-echo "Nome: ".$_POST['nome'];
+  //Identificação
+  echo "<fieldset>";
+  echo"<meta charset=utf-8>";
+  echo "<h1>Identificação</h1>";
+  echo "<hr>";
+  echo "Nome: ".$_POST['nome'];
   echo "<br>";
   echo "Data de Nascimento: ".$_POST['data'];
   echo "<br>"; 
@@ -22,8 +20,6 @@ echo "Nome: ".$_POST['nome'];
   echo "<br>";
   echo "C.P.F: ".$_POST['cpf'];
   echo "<br>";  
-  
-
 
   //Localização
 
@@ -41,30 +37,26 @@ echo "Nome: ".$_POST['nome'];
   echo "<br>";
   echo "E-mail: ".$_POST['cpf'];
   echo "<br>"; 
- 
+  
   //Pretensão
- 
+  
   echo "<h1>Pretensão</h1>";
   echo "<hr>";
-  foreach ($_POST["area"] as $area) {
-  	echo "- " . $area . "<br>";
-  }
-   echo "Cargo: ".$_POST['cargo'];
-  echo "<br>";
+  foreach ($_POST["area"] as $area){
+      echo "- " . $area . "<br>";
+    }
+    echo "Cargo: ".$_POST['cargo'];
+    echo "<br>";
+    
+    //Formação
   
-
-  //Formação
- 
   echo "<h1>Formação</h1>";
   echo "<hr>";
-    echo "Nível: ".$_POST['nivel'];
+  echo "Nível: ".$_POST['nivel'];
   echo "<br>";
   echo "Instituição: ".$_POST['instituição'];
   echo "<br>";
   echo "Data de conclusão: ".$_POST['conclusao'];
   echo "<br>"; 
   echo "</fieldset>";
-  
-
-
  ?>

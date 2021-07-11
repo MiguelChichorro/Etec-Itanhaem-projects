@@ -1,88 +1,80 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="CSS.css">
-	<title>Formulario</title>
-</head>
-<body>
-	<h1><i>Formulário</i></h1>
-	<fieldset id="b" >
-	<form  method="post" action="PHP.php">
-		<div id="x">
-         <fieldset id="a">
-         	<legend><h2><i>Identificação</i></h2></legend>
-<div id="le"
-         		<p><label for="nome">NOME<br></label><input type="text" name="nome" id="nome" placeholder="Miguel Chichorro de Oliveira" required></p>
-         		<p><label for="data">DATA DE NASCIMENTO<br></label><input type="text" name="data" id="data" placeholder="25/07/2003" required></p>
-         		<p><label for="sexo">SEXO: Masculino</label><input type="radio" value="M" name="sexo" id="sexo" required></p>
-					</div>
-<div id="ri"
-         		<p><label for="rg">R.G<br></label><input type="text" name="rg" id="rg"  placeholder="50.977.021-6" required></p>
-         		<p><label for="cpf">C.P.F<br></label><input type="text" name="cpf" id="cpf" placeholder="528.322.768-57" required></p>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="CSS.css">
+		<title>Formulario</title>
+	</head>
+	<body>
+		<h1><i>Formulário</i></h1>
+		<fieldset id="b" >
+			<form  method="post" action="PHP.php">
+				<div id="x">
+					<fieldset id="a">
+						<legend><h2><i>Identificação</i></h2></legend>
+						<div id="le">
+							<p><label for="nome">NOME<br></label><input type="text" name="nome" id="nome" placeholder="Miguel Chichorro de Oliveira" required></p>
+							<p><label for="data">DATA DE NASCIMENTO<br></label><input type="text" name="data" id="data" placeholder="25/07/2003" required></p>
+							<p><label for="sexo">SEXO: Masculino</label><input type="radio" value="M" name="sexo" id="sexo" required></p>
+						</div>
+						<div id="ri">
+							<p><label for="rg">R.G<br></label><input type="text" name="rg" id="rg"  placeholder="50.977.021-6" required></p>
+							<p><label for="cpf">C.P.F<br></label><input type="text" name="cpf" id="cpf" placeholder="528.322.768-57" required></p>
 							<p><label for="sexo">SEXO: Feminino</label><input type="radio" value="M" name="sexo" id="sexo" required></p>
 						</div>
-
-         	</fieldset>
+					</fieldset>
 				</div>
-<div id="r">
-         		 <fieldset id="a">
-         	<legend><h2><i>Localização</i></h2></legend>
-        <div id="left">
-         	<p><label for="cep">C.E.P<br></label><input type="text" name="cep" id="cep" required placeholder="117400-000"></p>
-         	<p><label for="endereço">ENDEREÇO<br></label><input type="text" name="endereço" id="endereço" required placeholder="189 Rua Vital Ferreira"></p>
-         	<p><label for="bairro">BAIRRO<br></label><input type="text" name="bairro" id="bairro" required placeholder="Jardim Corumba"></p>
+				<div id="r">
+					<fieldset id="a">
+						<legend><h2><i>Localização</i></h2></legend>
+						<div id="left">
+							<p><label for="cep">C.E.P<br></label><input type="text" name="cep" id="cep" required placeholder="117400-000"></p>
+							<p><label for="endereço">ENDEREÇO<br></label><input type="text" name="endereço" id="endereço" required placeholder="189 Rua Vital Ferreira"></p>
+							<p><label for="bairro">BAIRRO<br></label><input type="text" name="bairro" id="bairro" required placeholder="Jardim Corumba"></p>
+						</div>
+						<div id="right">
+							<p><label for="cidade">CIDADE<br></label><input type="text" name="cidade" id="cidade" placeholder="Itanhaém" required></p>
+							<p><label for="tel">TELEFONE<br></label><input type="text" name="tel" id="tel" placeholder="3427-6423" required></p>
+							<p><label for="email">E-MAIL<br></label><input type="text" name="email" id="email" placeholder="miguel_mco@hotmail.com" required></p>
+						</div>
+					</fieldset>
 				</div>
-				<div id="right">
-         	<p><label for="cidade">CIDADE<br></label><input type="text" name="cidade" id="cidade" placeholder="Itanhaém" required></p>
-         	<p><label for="tel">TELEFONE<br></label><input type="text" name="tel" id="tel" placeholder="3427-6423" required></p>
-         	<p><label for="email">E-MAIL<br></label><input type="text" name="email" id="email" placeholder="miguel_mco@hotmail.com" required></p>
-          </div>
-         </fieldset>
-			 </div>
-
-				 			 <div id="p">
-         <fieldset id="a">
-         	<legend><h2><i>Pretensão</i></h2></legend>
-         	<h3>Área desejada:</h3>
-         	<input type="checkbox" name="area[]" value="juridico">Juridico<br>
-         	<input type="checkbox" name="area[]" value="Produção">Produção<br>
-         	<input type="checkbox" name="area[]" value="Financeiro">Financeiro<br>
-         	<input type="checkbox" name="area[]" value="T.I">T.I<br>
-         	<h3>Salário pretendido</h3>
-         	<input type="text" name="salario">
-
-         	<p><label for="cargo">CARGO<br></label><input type="text" name="cargo" id="cargo" placeholder="Arquitetura" required></p>
-
-         </fieldset>
-				 </div>
-
-<div id="rig">
-         <fieldset id="q">
-         	<legend><h2><i>Formação</i></h2></legend>
-         	Nivel<br><select name="nivel">
-         		<option value="ENSINO FUNDAMENTAL">ENSINO FUNDAMENTAL</option>
-         		<option value="ENSINO MÉDIO">ENSINO MÉDIO</option>
-         		<option value="ENSINO SUPERIOR">ENSINO SUPERIOR</option>
-         		<option value="MESTRADO">MESTRADO</option>
-         		<option value="PÓS GRADUAÇÃO">PÓS GRADUAÇÃO</option>
-         		</select>
-         		<p><label for="instituição">INSTITUIÇÃO<br></label><input type="text" name="instituição" id="instituição" placeholder="Etec de itanhaém" required></p>
-         		<p><label for="conclusao">DATA DE CONCLUSÃO<br></label><input type="text" name="conclusao" id="conclusao" placeholder="22/12/2020" required></p>
-         </fieldset>
-			 </div>
-
-				 <div class="a">
-         <input type="submit" id="button" >
-			 </div>
-			 <div class="cancel">
-         <input type="reset" id="reset" value="Cancelar">
-			 </div>
-
-
-
-         	</form>
-         </fieldset>
-
-</body>
+				<div id="p">
+					<fieldset id="a">
+						<legend><h2><i>Pretensão</i></h2></legend>
+						<h3>Área desejada:</h3>
+						<input type="checkbox" name="area[]" value="juridico">Juridico<br>
+						<input type="checkbox" name="area[]" value="Produção">Produção<br>
+						<input type="checkbox" name="area[]" value="Financeiro">Financeiro<br>
+						<input type="checkbox" name="area[]" value="T.I">T.I<br>
+						<h3>Salário pretendido</h3>
+						<input type="text" name="salario">
+						<p><label for="cargo">CARGO<br></label><input type="text" name="cargo" id="cargo" placeholder="Arquitetura" required></p>
+					</fieldset>
+				</div>
+				<div id="rig">
+					<fieldset id="q">
+						<legend><h2><i>Formação</i></h2></legend>
+							Nivel
+							<br>
+							<select name="nivel">
+								<option value="ENSINO FUNDAMENTAL">ENSINO FUNDAMENTAL</option>
+								<option value="ENSINO MÉDIO">ENSINO MÉDIO</option>
+								<option value="ENSINO SUPERIOR">ENSINO SUPERIOR</option>
+								<option value="MESTRADO">MESTRADO</option>
+								<option value="PÓS GRADUAÇÃO">PÓS GRADUAÇÃO</option>
+							</select>
+							<p><label for="instituição">INSTITUIÇÃO<br></label><input type="text" name="instituição" id="instituição" placeholder="Etec de itanhaém" required></p>
+							<p><label for="conclusao">DATA DE CONCLUSÃO<br></label><input type="text" name="conclusao" id="conclusao" placeholder="22/12/2020" required></p>
+					</fieldset>
+				</div>
+				<div class="a">
+					<input type="submit" id="button" >
+				</div>
+				<div class="cancel">
+					<input type="reset" id="reset" value="Cancelar">
+				</div>
+			</form>
+		</fieldset>
+	</body>
 </html>

@@ -4,10 +4,12 @@ body {
 	background-color: black;
 }
 h1 {
- color: white;
- width: auto;
+ 	color: white;
+ 	width: auto;
 }
+
 /* alinhamento dos fieldsets*/
+
 #x{
 	float: left;
 }
@@ -17,15 +19,18 @@ h1 {
 #rig {
 	float: right;
 }
+
 /* alinhamento descrição */
+
 #le{
 	float: left;
 }
 #ri{
 	float: right;
-
 }
+
 /* alinhamento da Localização */
+
 #left {
 	float: left;
 }
@@ -35,14 +40,13 @@ h1 {
 #r{
 	float: right;
 }
- /* fieldset */
-#b{
 
+ /* fieldset */
+
+#b{
 	border: solid white;
 	margin: 0 auto;
 	width: 1000px;
-
-
 }
 #a{
 	margin: auto;
@@ -52,7 +56,6 @@ h1 {
 	color: white;
 	height: auto;
 	width: 450px;
-
 }
 #q{
 	margin: auto;
@@ -62,9 +65,10 @@ h1 {
 	color: white;
 	height: 410px;
 	width: 450px;
-
 }
+
 /* perguntas */
+
 input[type="text"]{
 	border: 0;
   background: none;
@@ -78,68 +82,60 @@ input[type="text"]{
   color: white;
   border-radius: 15px;
   transition: 0.25s;
-
 }
 input[type="text"]:focus{
   width: 200px;
   border-color: green;
-
 }
+
  /* botao enviar flutuar */
- .a {
-	 position: absolute;
-	 top: 149%;
 
- }
- .cancel{
-
-
-
+ .a{
+	position: absolute;
+	top: 149%;
  }
 input[type="submit"]{
 	border: 0;
-  background: none;
-  display: block;
-  margin: 20px auto;
-  text-align: center;
-  border: 2px solid white;
-  padding: 14px 10px;
-  width: 150px;
-  outline: none;
-  color: white;
-  border-radius: 15px;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid white;
+	padding: 14px 10px;
+	width: 150px;
+	outline: none;
+	color: white;
+  	border-radius: 15px;
 	cursor: pointer;
-
 }
 input[type="submit"]:hover {
 	background: green;
 	border-color: green;
 	color: white;
 }
+
 /* botao cancelar */
 
 input[type="reset"]{
 	border: 0;
-  background: none;
-  display: block;
-  margin: 20px auto;
-  text-align: center;
-  border: 2px solid white;
-  padding: 14px 10px;
-  width: 150px;
-  outline: none;
-  color: white;
-  border-radius: 15px;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid white;
+	padding: 14px 10px;
+	width: 150px;
+	outline: none;
+	color: white;
+	border-radius: 15px;
 	cursor: pointer;
 	float: right;
-
 }
 input[type="reset"]:hover {
 	background: red;
 	border-color: red;
 	color: white;
 }
-
 select {
 	border: 0;
 	background: none;
@@ -152,6 +148,4 @@ select {
 	outline: none;
 	color: gray;
 	border-radius: 15px;
-
-
 }

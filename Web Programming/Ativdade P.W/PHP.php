@@ -1,13 +1,11 @@
 
 <style media="screen">
   body{
-
     color: white;
     background-color: black;
     font-size: 30px;
   }
   fieldset{
-
     width: 450px;
     height: 150px;
     border-radius: 25px;
@@ -30,14 +28,13 @@
   }
 </style>
 <?php
-
-echo "<center>";
-echo "<h1>Porcentagens</h1>";
-echo "<fieldset>";
-echo $_POST['botao'];
-echo "<br>";
-echo "<br>";
-echo "<button type=button name=button onclick=window.open('index.html'); window.close();>Escolher outro gênero</button>";
-echo "</fieldset>";
-echo "</center>";
- ?>
+  echo "<center>";
+  echo "<h1>Porcentagens</h1>";
+  echo "<fieldset>";
+  echo $_POST['botao'];
+  echo "<br>";
+  echo "<br>";
+  echo "<button type=button name=button onclick=window.open('index.html'); window.close();>Escolher outro gênero</button>";
+  echo "</fieldset>";
+  echo "</center>";
+?>

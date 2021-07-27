@@ -7,7 +7,6 @@ $_SESSION['conta']=0;
   <head>
     <style media="screen">
       *{
-
         outline: none;
       }
       div.head{

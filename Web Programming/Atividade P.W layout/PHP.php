@@ -1,8 +1,7 @@
 <style media="screen">
-body{
- font-family: "Courier New"
-}
-
+  body{
+    font-family: "Courier New"
+  }
   .resposta{
     width: 1000px;
     height: 500px;
@@ -10,7 +9,6 @@ body{
     margin-top: 75px;
     margin-left: 200px;
     border-radius: 10px;
-
   }
   h1{
     padding-top: 15px;
@@ -58,31 +56,26 @@ body{
 </style>
 <div class="resposta">
   <center>
-  <h1>Sua compra foi bem efetuada</h1>
-</center>
+    <h1>Sua compra foi bem efetuada</h1>
+  </center>
   <hr>
-
-<div class="cartao">
-  <h2>Dados do Cartão</h2>
-  <hr>
-<?php
-echo "<p>-Seu número de CVV é ".$_POST['cvv']. "</p>";
-echo "<p>-Bandeira ".$_POST['bandeira']. "</p>";
-echo "<p>-Validade ".$_POST['validade']. "</p>";
- ?>
-</div>
-<div class="dados">
-  <h2>Seus dados</h2>
-  <hr>
-
-<?php
-
-echo "<p>Parabens senhor(a) <br>".$_POST['nome']. "<br> Do CPF ".$_POST['cpf']. "</p>";
-echo "<p>Seu comprovante de pagamento sera enviado para o E-mail: ".$_POST['email']. "</p>";
-echo "<p>Tenha um otimo dia!</p>";
- ?>
-
-
-</div>
- <button type="button" name="button" onclick="window.open('index.html'),window.close('PHP.php');">Voltar a compra</button>
+  <div class="cartao">
+    <h2>Dados do Cartão</h2>
+    <hr>
+    <?php
+      echo "<p>-Seu número de CVV é ".$_POST['cvv']. "</p>";
+      echo "<p>-Bandeira ".$_POST['bandeira']. "</p>";
+      echo "<p>-Validade ".$_POST['validade']. "</p>";
+    ?>
+  </div>
+  <div class="dados">
+    <h2>Seus dados</h2>
+    <hr>
+    <?php
+      echo "<p>Parabens senhor(a) <br>".$_POST['nome']. "<br> Do CPF ".$_POST['cpf']. "</p>";
+      echo "<p>Seu comprovante de pagamento sera enviado para o E-mail: ".$_POST['email']. "</p>";
+      echo "<p>Tenha um otimo dia!</p>";
+    ?>
+  </div>
+  <button type="button" name="button" onclick="window.open('index.html'),window.close('PHP.php');">Voltar a compra</button>
 </div>

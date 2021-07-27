@@ -7,76 +7,60 @@
   </head>
   <body>
     <form action="PHP.php" method="post">
-
-    <div class="cabeçalho">
-      <center>
-      <h1><b>Bem vindo!</b></h1>
-      Compre hoje sua manopla do infinito e faça seus problemas virarem pó
-    </center>
-
-    </div>
-    <hr>
-    <div class="formul">
-
-      <div class="cartao">
-        <h2>Cartão de credito</h2>
-        <hr>
-         <h3>Numero de CVV</h3>
-      <input type="number" name="cvv" required>
-      <br>
-      <h3>Bandeira</h3><label><select class="bandeira" name="bandeira" required></label>
-        <option></option>
-        <option>Mastercard</option>
-        <option>Visa</option>
-        <option>Elo</option>
-
-      </select>
-      <h3 id="val">Validade</h3>
-
-      <label><input type="date" name="validade" value="" required></label>
-      <br>
-      <input type="submit" value="Enviar dados" required>
-      </div>
-
-      <div class="dados">
-        <h2>Dados pessoais</h2>
-        <hr>
-
-          <h3>Nome completo</h3>
-      <input type="text" name="nome"  required>
-      <h3>E-mail</h3>
-
-      <input type="email" name="email" required>
-      <h3>CPF</h3>
-
-      <input type="number" name="cpf" required>
-
-      </div>
-
-    </div>
-
-    <div class="lateral">
-      <fieldset>
-        <h2>Sua compra</h2>
-        <hr>
+      <div class="cabeçalho">
         <center>
-      <img src="manopla.jpg" alt="manopla">
-    </center>
-      <h4>Produto</h4>
-      <p>Manopla do infinito</p>
-      <h4>Cor</h4>
-      <p>Dourado</p>
-      <h4>Tamanho</h4>
-      <p>40</p>
-      <h4>Preço</h4>
-      <p>R$99,9</p>
-
-      </fieldset>
-
-
-    </div>
-  </form>
-
-
+          <h1><b>Bem vindo!</b></h1>
+          Compre hoje sua manopla do infinito e faça seus problemas virarem pó
+        </center>
+      </div>
+      <hr>
+      <div class="formul">
+        <div class="cartao">
+          <h2>Cartão de credito</h2>
+          <hr>
+          <h3>Numero de CVV</h3>
+          <input type="number" name="cvv" required>
+          <br>
+          <h3>Bandeira</h3><label>
+          <select class="bandeira" name="bandeira" required></label>
+            <option></option>
+            <option>Mastercard</option>
+            <option>Visa</option>
+            <option>Elo</option>
+          </select>
+          <h3 id="val">Validade</h3>
+          <label><input type="date" name="validade" value="" required></label>
+          <br>
+          <input type="submit" value="Enviar dados" required>
+        </div>
+        <div class="dados">
+          <h2>Dados pessoais</h2>
+          <hr>
+          <h3>Nome completo</h3>
+          <input type="text" name="nome"  required>
+          <h3>E-mail</h3>
+          <input type="email" name="email" required>
+          <h3>CPF</h3>
+          <input type="number" name="cpf" required>
+        </div>
+      </div>
+      <div class="lateral">
+        <fieldset>
+          <h2>Sua compra</h2>
+          <hr>
+          <center>
+            <img src="manopla.jpg" alt="manopla">
+          </center>
+          <h4>Produto</h4>
+          <p>Manopla do infinito</p>
+          <h4>Cor</h4>
+          <p>Dourado</p>
+          <h4>Tamanho</h4>
+          <p>40</p>
+          <h4>Preço</h4>
+          <p>R$99,9</p>
+        </fieldset>
+      </div>
+    </form>
   </body>
 </html>

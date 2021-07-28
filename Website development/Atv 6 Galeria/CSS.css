@@ -2,8 +2,6 @@ img{
 	width: 275px;
 	height: 275px;
 	opacity: 0.75;
-    
-	
 }
 fieldset {
 	width: 2px;
@@ -12,7 +10,6 @@ fieldset {
 	border-radius: 15px;
 	text-align: center;
 	border-color: green;
-
 }
 legend {
 	text-align: center;

@@ -1,0 +1,40 @@
+#CN{
+	float: left;
+	height: 350px;
+	width: 50%;
+	background-image: url(https://cdn.getyourguide.com/img/country/58de136b73284.jpeg/88.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#PR{
+	float: right;
+	height: 350px;
+	width: 50%;
+	background-image: url(https://static.poder360.com.br/2021/03/paris-scaled.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#IN{
+	height: 350px;
+	width: 50%;
+	float: right;
+	background-image: url(https://ci-prod.imgix.net/upload/galeriadeimagens/00210010.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#NY{
+	height: 350px;
+	width: 50%;
+	float: right;
+	background-image: url(http://viva-mundo.com/sites/default/files/images/posts/NewYork.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}

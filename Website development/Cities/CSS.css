@@ -13,10 +13,30 @@ html, body {
 	-o-background-size: cover;
 	background-size: cover;
 	filter: brightness(50%);
+	color: white;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 .city:hover{
 	transition: 1s;
 	filter: brightness(100%);
+}
+.city:hover .name{
+	transition: 1s;
+	opacity: 100%;
+	visibility: visible;
+}
+.name{
+	opacity: 0;
+	visibility: hidden;
+	color: white;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	position: absolute;
+  	left: 45%;
+  	margin-left: -45px;
+  	top: 52.5%;
+  	margin-top: -52.5px;
+	text-align: center;
+	font-size: 60px;
 }
 .logo{
 	height: 70px;

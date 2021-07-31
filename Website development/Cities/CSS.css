@@ -18,6 +18,24 @@ html, body {
 	transition: 1s;
 	filter: brightness(100%);
 }
+.logo{
+	height: 70px;
+	width: 220px;
+	background-color: white;
+	border-style: double;
+	position: absolute;
+  	left: 45%;
+  	margin-left: -45px;
+  	top: 52.5%;
+  	margin-top: -52.5px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 60px;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+a{
+	cursor: pointer;
+}
 #CN{
 	background-image: url(https://cdn.getyourguide.com/img/country/58de136b73284.jpeg/88.jpg);
 }

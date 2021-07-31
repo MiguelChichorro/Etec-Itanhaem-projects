@@ -1,0 +1,10 @@
+img {
+	width: 800px;
+	height: 400px;
+	float: left;
+}
+p {
+	font-size: 14px;
+	font-family: arial;
+	text-align: left;
+}

@@ -1,9 +1,12 @@
-img{
-	width: 800px;
-	height: 400px;
-	float: left;
+body{
+	background-image: url(https://cdn.getyourguide.com/img/country/58de136b73284.jpeg/88.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
-p{
-	font-size: 18px;
-	font-family: arial;
+
+.logo{
+	text-align: center;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }

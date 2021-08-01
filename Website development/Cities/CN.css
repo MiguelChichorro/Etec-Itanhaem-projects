@@ -1,12 +1,30 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 body{
 	background-image: url(https://cdn.getyourguide.com/img/country/58de136b73284.jpeg/88.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.5)
 }
-
 .logo{
-	text-align: center;
-	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+	text-align: left;
+	color: white;
+	opacity: 100%;
+	font-size: 30px;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	margin-left: 2%;
+}
+.nav{
+	padding-top: 0.5%;
+	margin-top: -2%;
+	height: max-content;
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 10%;
+	border-bottom: solid 1px black;
 }

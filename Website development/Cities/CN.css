@@ -13,18 +13,23 @@ body{
 	background-color: rgba(0, 0, 0, 0.5)
 }
 .logo{
-	text-align: left;
+	text-align: center;
 	color: white;
 	opacity: 100%;
 	font-size: 30px;
-	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	margin-left: 2%;
+	letter-spacing: 5px;
 }
 .nav{
-	padding-top: 0.5%;
+	padding-top: 0.75%;
 	margin-top: -2%;
-	height: max-content;
 	background-color: rgba(0, 0, 0, 0.5);
 	height: 10%;
 	border-bottom: solid 1px black;
+}
+#leaf{
+	float: left;
+	margin-top: 2%;
+	margin-left: 2%;
+	width: 30px;
+	height: 30px;
 }

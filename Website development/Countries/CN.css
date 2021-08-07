@@ -82,7 +82,7 @@ red{
 .title:active{
 	background-color: darkred;
 }
-.titles{
+.titles, .titles-side{
 	height: 40%;
 	width: 50%;
 }
@@ -94,15 +94,14 @@ red{
 	margin-top: 3%;
 }
 .content{
-	border: 5px solid #c20a0a;
+	border: 5px solid;
+	border-color: #c20a0a;
 	border-radius: 5px;
 	width: 100%;
-	background-color: #5c5c5c;
+	background-color: white;
 	height: auto;
 	margin-top: 1%;
-	color: wheat;
-}
-.inside-box{
 	text-align: justify;
 	padding: 2%;
+	font-style: oblique;
 }

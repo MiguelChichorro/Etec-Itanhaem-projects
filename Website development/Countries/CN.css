@@ -68,3 +68,13 @@ red{
 	float: left;
 	margin-top: 1px;
 }
+.title{
+	text-align: center;
+	display: inline;
+	width: 10%;
+	height: 50%;
+	background-color: red;
+	color: #f2f2f2;
+	margin-right: 1%;
+	border-radius: 10px 10px 0px 0px;
+}

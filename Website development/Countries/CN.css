@@ -71,7 +71,7 @@ red{
 .title{
 	text-align: center;
 	display: inline;
-	padding: 5%;
+	padding: 3%;
 	background-color: red;
 	color: #f2f2f2;
 	border-radius: 10px 10px 0px 0px;
@@ -83,9 +83,17 @@ red{
 }
 .box{
 	margin: auto;
-  	width: 50%;
-  	border: 3px solid green;
+  	width: 75%;
   	padding: 10px;
+	margin-top: 3%;
+}
+.content{
+	border: 5px solid red;
+	border-radius: 5px;
+	width: 100%;
+	background-color: #f2f2f2;
+	height: 500px;
+	margin-top: 1%;
 }
 label{
 	cursor: pointer;

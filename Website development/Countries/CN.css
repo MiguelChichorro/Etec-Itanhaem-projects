@@ -61,6 +61,7 @@ red{
 .socialmidia{
 	display: inline;
 	float: right;
+	margin-right: 1%;
 }
 .copyright{
 	color: #f2f2f2;
@@ -69,13 +70,17 @@ red{
 	margin-top: 1px;
 }
 .title{
+	cursor: pointer;
 	text-align: center;
 	display: inline;
 	padding: 3%;
-	background-color: red;
+	background-color: #c20a0a;
 	color: #f2f2f2;
 	border-radius: 10px 10px 0px 0px;
 	box-shadow:-2px 0 10px -4px black;
+}
+.title:active{
+	background-color: darkred;
 }
 .titles{
 	height: 40%;
@@ -83,18 +88,21 @@ red{
 }
 .box{
 	margin: auto;
-  	width: 75%;
-  	padding: 10px;
+	height: auto;
+  	width: 85%;
+  	padding: 1%;
 	margin-top: 3%;
 }
 .content{
-	border: 5px solid red;
+	border: 5px solid #c20a0a;
 	border-radius: 5px;
 	width: 100%;
-	background-color: #f2f2f2;
-	height: 500px;
+	background-color: #5c5c5c;
+	height: auto;
 	margin-top: 1%;
+	color: wheat;
 }
-label{
-	cursor: pointer;
+.inside-box{
+	text-align: justify;
+	padding: 2%;
 }

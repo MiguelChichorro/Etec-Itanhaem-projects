@@ -2,6 +2,18 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(".inside-box").hide();
+				$("#cities").click(function(){
+					$("#cities-box").show();
+				});
+			});
+			$(window).on('load', function () {
+    			$('#loading').hide();
+  			}) 
+		</script>
 		<link rel="stylesheet" type="text/css" href="CN.css">
 		<title>Canada</title>
 		<link rel = "icon" href = "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg" type = "image/x-icon">
@@ -24,7 +36,7 @@
 					<label for="cities"></label>
 				</div>
 				<div class="title" id="cultures" onclick="cultures()">
-					<b>cultures</b>
+					<b>Cultures</b>
 					<label for="cultures"></label>
 				</div>
 				<div class="title" id="tourist" onclick="tourist()">
@@ -37,7 +49,9 @@
 				</div>
 			</div>
 			<div class="content">
-
+				<div class="inside-box" id="cities-box">
+					<p>cities</p>
+				</div>
 			</div>
 		</div>
 	</body>

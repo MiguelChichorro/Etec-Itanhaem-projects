@@ -105,3 +105,29 @@ red{
 	padding: 2%;
 	font-style: oblique;
 }
+#loading {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: white;
+	z-index: 99;
+}
+#loading-image {
+	z-index: 100;
+	width: 500px;
+	height: 500px;
+	animation: leaf 2s linear infinite;
+}
+@keyframes leaf{
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(360deg);
+	}
+}

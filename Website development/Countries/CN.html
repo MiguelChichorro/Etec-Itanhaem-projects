@@ -7,7 +7,20 @@
 			$(document).ready(function(){
 				$(".inside-box").hide();
 				$("#cities").click(function(){
+					$(".inside-box").hide();
 					$("#cities-box").show();
+				});
+				$("#cultures").click(function(){
+					$(".inside-box").hide();
+					$("#cultures-box").show();
+				});
+				$("#tourist").click(function(){
+					$(".inside-box").hide();
+					$("#tourist-box").show();
+				});
+				$("#about").click(function(){
+					$(".inside-box").hide();
+					$("#about-box").show();
 				});
 			});
 			$(window).on('load', function () {
@@ -51,6 +64,15 @@
 			<div class="content">
 				<div class="inside-box" id="cities-box">
 					<p>cities</p>
+				</div>
+				<div class="inside-box" id="cultures-box">
+					<p>cultures</p>
+				</div>
+				<div class="inside-box" id="tourist-box">
+					<p>tourist</p>
+				</div>
+				<div class="inside-box" id="about-box">
+					<p>about</p>
 				</div>
 			</div>
 		</div>

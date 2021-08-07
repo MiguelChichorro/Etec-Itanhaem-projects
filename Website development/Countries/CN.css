@@ -75,7 +75,7 @@ red{
 	background-color: red;
 	color: #f2f2f2;
 	border-radius: 10px 10px 0px 0px;
-	box-shadow: 0px 0px 20px black; 
+	box-shadow:-2px 0 10px -4px black;
 }
 .titles{
 	height: 40%;

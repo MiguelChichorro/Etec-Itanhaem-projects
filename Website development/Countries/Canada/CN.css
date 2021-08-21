@@ -42,7 +42,7 @@ body{
 	width: 30px;
 	height: 30px;
 }
-red{
+span{
 	color: red;
 }
 .socialmidia{
@@ -104,6 +104,13 @@ red{
 	text-align: justify;
 	padding: 2%;
 	font-style: oblique;
+}
+.content img{
+	width: 800px;
+	height: 500px;
+	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
 }
 #loading {
 	position: fixed;

@@ -5,6 +5,17 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script>
 			$(document).ready(function(){
+				$(window).scroll(function() {
+					if ($(this).scrollTop()) {
+						$('#myBtn').fadeIn();
+					} 
+					else {
+						$('#myBtn').fadeOut();
+					}
+				});
+				$("#myBtn").click(function () {
+					$("html, body").animate({scrollTop: 0}, 1000);
+				});
 				$(".inside-box").hide();
 				$(".begin").show();
 				$(".logo").click(function(){

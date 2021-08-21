@@ -105,12 +105,16 @@ span{
 	padding: 2%;
 	font-size: 18.5px;
 }
+.content h1{
+	text-shadow: 2px 2px 5px red;
+}
 .content img{
-	width: 800px;
-	height: 500px;
+	width: 600px;
+	height: 300px;
 	margin-left: auto;
   	margin-right: auto;
   	display: block;
+	box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
 }
 #loading {
 	position: fixed;

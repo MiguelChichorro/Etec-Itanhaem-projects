@@ -108,6 +108,10 @@ span{
 .content h1{
 	text-shadow: 2px 2px 5px red;
 }
+.content p, h1{
+	padding-left: 5%;
+	padding-right: 5%;
+}
 .content img{
 	width: 600px;
 	height: 300px;

@@ -132,13 +132,20 @@ span{
 	padding-left: 5%;
 	padding-right: 5%;
 }
-.content img{
+.begin img, #cities-box img{
 	width: 600px;
 	height: 300px;
 	margin-left: auto;
   	margin-right: auto;
   	display: block;
 	box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.19);
+}
+#cultures-box img{
+	width: 350px;
+	height: 350px;
+	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
 }
 #loading {
 	position: fixed;
@@ -165,4 +172,7 @@ span{
 	to{
 		transform: rotateY(360deg);
 	}
+}
+#cultures-box h2{
+	text-align: center;
 }

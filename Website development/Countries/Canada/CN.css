@@ -125,10 +125,13 @@ span{
 	padding: 2%;
 	font-size: 18.5px;
 }
-.content h1{
+#cities-box h1{
 	text-shadow: 2px 2px 5px red;
 }
-.content p, h1{
+#cultures-box h1, h2{
+	text-shadow: 2px 2px 5px rgb(185, 100, 20);
+}
+.content p, h1, h2{
 	padding-left: 5%;
 	padding-right: 5%;
 }
@@ -172,7 +175,4 @@ span{
 	to{
 		transform: rotateY(360deg);
 	}
-}
-#cultures-box h2{
-	text-align: center;
 }

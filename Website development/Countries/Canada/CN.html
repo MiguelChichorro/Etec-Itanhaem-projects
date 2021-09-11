@@ -3,60 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script>
-			$(document).ready(function(){
-				$(window).scroll(function() {
-					if ($(this).scrollTop()) {
-						$('#myBtn').fadeIn();
-					} 
-					else {
-						$('#myBtn').fadeOut();
-					}
-				});
-				$("#myBtn").click(function () {
-					$("html, body").animate({scrollTop: 0}, 1000);
-				});
-				$(".inside-box").hide();
-				$(".begin").show();
-				$(".logo").click(function(){
-					$(".inside-box").hide();
-					$(".title").css("text-decoration", "unset");
-					$(".begin").show();
-				});
-				$("#cities").click(function(){
-					$(".inside-box").hide();
-					$(".begin").hide();
-					$("#cities-box").show();
-					$(".title").css("text-decoration", "unset");
-					$("#cities").css("text-decoration", "underline");
-				});
-				$("#cultures").click(function(){
-					$(".inside-box").hide();
-					$(".begin").hide();
-					$("#cultures-box").show();
-					$(".title").css("text-decoration", "unset");
-					$("#cultures").css("text-decoration", "underline");
-				});
-				$("#tourist").click(function(){
-					$(".inside-box").hide();
-					$(".begin").hide();
-					$("#tourist-box").show();
-					$(".title").css("text-decoration", "unset");
-					$("#tourist").css("text-decoration", "underline");
-				});
-				$("#about").click(function(){
-					$(".inside-box").hide();
-					$(".begin").hide();
-					$("#about-box").show();
-					$(".title").css("text-decoration", "unset");
-					$("#about").css("text-decoration", "underline");
-				});
-			});
-			$(window).on('load', function () {
-    			$('#loading').hide();
-  			}) 
-		</script>
 		<link rel="stylesheet" type="text/css" href="CN.css">
+		<script src="CN.js"></script>
 		<title class="canada">Canada</title>
 		<link rel = "icon" href = "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg" type = "image/x-icon">
 	</head>
@@ -207,13 +155,13 @@
 				<div class="inside-box" id="tourist-box">
 					<div class="slideshow-container">
 						<div class="mySlides fade">
-						  <img src="https://etacanadavisa.com.br/main/wp-content/uploads/2018/10/26.jpg" style="width:100%;height: 500px;">
+						  <img src="https://etacanadavisa.com.br/main/wp-content/uploads/2018/10/26.jpg" style="width:100%;height: 200px;">
 						</div>
 						<div class="mySlides fade">
-							<img src="https://etacanadavisa.com.br/main/wp-content/uploads/2018/10/26.jpg" style="width:100%;height: 500px;">
+							<img src="https://etacanadavisa.com.br/main/wp-content/uploads/2018/10/26.jpg" style="width:100%;height: 200px;">
 						</div>
 						<div class="mySlides fade">
-							<img src="https://etacanadavisa.com.br/main/wp-content/uploads/2018/10/26.jpg" style="width:100%;height: 500px;">
+							<img src="https://etacanadavisa.com.br/main/wp-content/uploads/2018/10/26.jpg" style="width:100%;height: 200px;">
 						</div>
 						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 						<a class="next" onclick="plusSlides(1)">&#10095;</a>

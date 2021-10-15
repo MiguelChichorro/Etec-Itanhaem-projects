@@ -1,3 +1,4 @@
+/* JQuery */
 $(document).ready(function(){
     $(window).scroll(function() {
         if ($(this).scrollTop()) {
@@ -10,6 +11,10 @@ $(document).ready(function(){
     $("#myBtn").click(function () {
         $("html, body").animate({scrollTop: 0}, 1000);
     });
+    /* Load page */
+    $(window).on('load', function () {
+        $('#loading').hide();
+    }) 
     $(".inside-box").hide();
     $(".begin").show();
     $(".logo").click(function(){
@@ -46,10 +51,15 @@ $(document).ready(function(){
         $(".title").css("text-decoration", "unset");
         $("#about").css("text-decoration", "underline");
     });
+    $("#quiz").click(function(){
+        $(".inside-box").hide();
+        $(".begin").hide();
+        $("#quiz-box").show();
+        $(".title").css("text-decoration", "unset");
+        $("#quiz").css("text-decoration", "underline");
+    });
 });
-$(window).on('load', function () {
-    $('#loading').hide();
-  }) 
+/* Slides Tourist */
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -76,3 +86,4 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
 }
+/* QUIZ */

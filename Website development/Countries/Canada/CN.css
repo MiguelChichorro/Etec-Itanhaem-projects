@@ -290,3 +290,9 @@ span{
 	color: rgb(28, 26, 26);
 	background: linear-gradient(90deg, rgb(10, 92, 255) 0%, rgb(0, 182, 255) 100%);
 }
+.btn:hover{
+	cursor: pointer;
+	box-shadow: 0 0.4rem 1.4rem rgba(8, 114, 244, 0.6);
+	transition: transform 150ms;
+	transform: scale(1.03);
+}
